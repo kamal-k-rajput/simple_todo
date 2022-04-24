@@ -1,0 +1,39 @@
+.main {
+  margin: 0 25%;
+}
+.container {
+  background-color: bisque;
+  border: 1px solid black;
+
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.label {
+  color: black;
+  font-size: 30px;
+}
+
+input {
+  width: 250px;
+  height: 35px;
+  font-size: 25px;
+  border: 1px solid red;
+  border: 10px;
+  margin: 5px;
+}
+input:focus {
+  background-color: white;
+  margin: 5px;
+}
+
+button {
+  height: 35px;
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  border: 1px solid rgb(51, 16, 16);
+  border-radius: 5px;
+}
